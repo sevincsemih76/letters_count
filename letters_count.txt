@@ -1,0 +1,9 @@
+sntc = str(input("enter a sentence: "))
+dıct_lettter = {}
+for i in sntc :
+    keys = dıct_lettter.keys()
+    if i in keys:
+        dıct_lettter[i] +=1
+    else:
+        dıct_lettter[i] = 1
+dıct_lettter   
